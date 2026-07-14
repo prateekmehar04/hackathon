@@ -1,0 +1,269 @@
+{
+  "model": "rf",
+  "n_train_beats": 32063,
+  "n_test_beats": 6960,
+  "n_train_patients": 1,
+  "train_patients": [
+    "100",
+    "101",
+    "103",
+    "105",
+    "106",
+    "109",
+    "111",
+    "112",
+    "113",
+    "114",
+    "200",
+    "203",
+    "205",
+    "207"
+  ],
+  "test_patients": [
+    "201",
+    "202",
+    "208"
+  ],
+  "rpeak_validation": {
+    "100": {
+      "sensitivity": 0.9965,
+      "ppv": 1.0,
+      "f1": 0.9982,
+      "n_tp": 2265,
+      "n_fp": 0,
+      "n_fn": 8
+    },
+    "101": {
+      "sensitivity": 0.9979,
+      "ppv": 0.9973,
+      "f1": 0.9976,
+      "n_tp": 1861,
+      "n_fp": 5,
+      "n_fn": 4
+    },
+    "103": {
+      "sensitivity": 0.9971,
+      "ppv": 0.9995,
+      "f1": 0.9983,
+      "n_tp": 2078,
+      "n_fp": 1,
+      "n_fn": 6
+    },
+    "105": {
+      "sensitivity": 0.9953,
+      "ppv": 0.9823,
+      "f1": 0.9888,
+      "n_tp": 2560,
+      "n_fp": 46,
+      "n_fn": 12
+    },
+    "106": {
+      "sensitivity": 0.9887,
+      "ppv": 0.9995,
+      "f1": 0.994,
+      "n_tp": 2004,
+      "n_fp": 1,
+      "n_fn": 23
+    },
+    "108": {
+      "sensitivity": 0.7771,
+      "ppv": 0.7283,
+      "f1": 0.7519,
+      "n_tp": 1370,
+      "n_fp": 511,
+      "n_fn": 393
+    },
+    "109": {
+      "sensitivity": 1.0,
+      "ppv": 1.0,
+      "f1": 1.0,
+      "n_tp": 2532,
+      "n_fp": 0,
+      "n_fn": 0
+    },
+    "111": {
+      "sensitivity": 0.9991,
+      "ppv": 0.9991,
+      "f1": 0.9991,
+      "n_tp": 2122,
+      "n_fp": 2,
+      "n_fn": 2
+    },
+    "112": {
+      "sensitivity": 1.0,
+      "ppv": 1.0,
+      "f1": 1.0,
+      "n_tp": 2539,
+      "n_fp": 0,
+      "n_fn": 0
+    },
+    "113": {
+      "sensitivity": 0.995,
+      "ppv": 0.9994,
+      "f1": 0.9972,
+      "n_tp": 1786,
+      "n_fp": 1,
+      "n_fn": 9
+    },
+    "114": {
+      "sensitivity": 0.9984,
+      "ppv": 0.9979,
+      "f1": 0.9981,
+      "n_tp": 1876,
+      "n_fp": 4,
+      "n_fn": 3
+    },
+    "200": {
+      "sensitivity": 0.9981,
+      "ppv": 0.9977,
+      "f1": 0.9979,
+      "n_tp": 2596,
+      "n_fp": 6,
+      "n_fn": 5
+    },
+    "201": {
+      "sensitivity": 0.9796,
+      "ppv": 1.0,
+      "f1": 0.9897,
+      "n_tp": 1923,
+      "n_fp": 0,
+      "n_fn": 40
+    },
+    "202": {
+      "sensitivity": 0.9967,
+      "ppv": 1.0,
+      "f1": 0.9984,
+      "n_tp": 2129,
+      "n_fp": 0,
+      "n_fn": 7
+    },
+    "203": {
+      "sensitivity": 0.9893,
+      "ppv": 0.9814,
+      "f1": 0.9853,
+      "n_tp": 2948,
+      "n_fp": 56,
+      "n_fn": 32
+    },
+    "205": {
+      "sensitivity": 0.997,
+      "ppv": 0.9996,
+      "f1": 0.9983,
+      "n_tp": 2648,
+      "n_fp": 1,
+      "n_fn": 8
+    },
+    "207": {
+      "sensitivity": 0.9973,
+      "ppv": 0.8701,
+      "f1": 0.9294,
+      "n_tp": 1855,
+      "n_fp": 277,
+      "n_fn": 5
+    },
+    "208": {
+      "sensitivity": 0.9844,
+      "ppv": 0.9993,
+      "f1": 0.9918,
+      "n_tp": 2909,
+      "n_fp": 2,
+      "n_fn": 46
+    }
+  },
+  "test_metrics": {
+    "per_class": [
+      {
+        "label": "AF",
+        "precision": 1.0,
+        "recall": 0.007,
+        "f1": 0.0139,
+        "support": 143
+      },
+      {
+        "label": "N",
+        "precision": 0.9012,
+        "recall": 0.9956,
+        "f1": 0.9461,
+        "support": 5259
+      },
+      {
+        "label": "OTHER",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 377
+      },
+      {
+        "label": "PVC",
+        "precision": 0.7467,
+        "recall": 0.7265,
+        "f1": 0.7365,
+        "support": 1181
+      }
+    ],
+    "accuracy": 0.8757,
+    "macro_f1": 0.4241,
+    "weighted_f1": 0.8401
+  },
+  "confusion_matrix": {
+    "labels": [
+      "AF",
+      "N",
+      "OTHER",
+      "PVC"
+    ],
+    "matrix": [
+      [
+        1,
+        99,
+        0,
+        43
+      ],
+      [
+        0,
+        5236,
+        0,
+        23
+      ],
+      [
+        0,
+        152,
+        0,
+        225
+      ],
+      [
+        0,
+        323,
+        0,
+        858
+      ]
+    ]
+  },
+  "patient_report": {
+    "n_patients": 3,
+    "patient_accuracy": 1.0,
+    "patients": [
+      {
+        "patient_id": "201",
+        "n_beats": 1922,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "202",
+        "n_beats": 2128,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "208",
+        "n_beats": 2910,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      }
+    ]
+  }
+}
