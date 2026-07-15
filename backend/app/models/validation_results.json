@@ -1,28 +1,54 @@
 {
   "model": "rf",
-  "n_train_beats": 32063,
-  "n_test_beats": 6960,
+  "n_train_beats": 81267,
+  "n_test_beats": 17832,
   "n_train_patients": 1,
   "train_patients": [
     "100",
     "101",
     "103",
     "105",
-    "106",
     "109",
     "111",
     "112",
     "113",
     "114",
+    "115",
+    "116",
+    "117",
+    "118",
+    "119",
+    "121",
+    "122",
+    "123",
     "200",
-    "203",
-    "205",
-    "207"
-  ],
-  "test_patients": [
     "201",
     "202",
-    "208"
+    "203",
+    "205",
+    "208",
+    "209",
+    "213",
+    "214",
+    "215",
+    "220",
+    "221",
+    "222",
+    "223",
+    "228",
+    "230",
+    "231",
+    "233"
+  ],
+  "test_patients": [
+    "106",
+    "124",
+    "207",
+    "210",
+    "212",
+    "219",
+    "232",
+    "234"
   ],
   "rpeak_validation": {
     "100": {
@@ -113,6 +139,78 @@
       "n_fp": 4,
       "n_fn": 3
     },
+    "115": {
+      "sensitivity": 1.0,
+      "ppv": 1.0,
+      "f1": 1.0,
+      "n_tp": 1953,
+      "n_fp": 0,
+      "n_fn": 0
+    },
+    "116": {
+      "sensitivity": 0.99,
+      "ppv": 0.9987,
+      "f1": 0.9944,
+      "n_tp": 2388,
+      "n_fp": 3,
+      "n_fn": 24
+    },
+    "117": {
+      "sensitivity": 0.9863,
+      "ppv": 0.9863,
+      "f1": 0.9863,
+      "n_tp": 1514,
+      "n_fp": 21,
+      "n_fn": 21
+    },
+    "118": {
+      "sensitivity": 0.9982,
+      "ppv": 0.9982,
+      "f1": 0.9982,
+      "n_tp": 2274,
+      "n_fp": 4,
+      "n_fn": 4
+    },
+    "119": {
+      "sensitivity": 0.9995,
+      "ppv": 0.999,
+      "f1": 0.9992,
+      "n_tp": 1986,
+      "n_fp": 2,
+      "n_fn": 1
+    },
+    "121": {
+      "sensitivity": 0.9984,
+      "ppv": 0.9963,
+      "f1": 0.9973,
+      "n_tp": 1860,
+      "n_fp": 7,
+      "n_fn": 3
+    },
+    "122": {
+      "sensitivity": 0.9996,
+      "ppv": 0.9996,
+      "f1": 0.9996,
+      "n_tp": 2475,
+      "n_fp": 1,
+      "n_fn": 1
+    },
+    "123": {
+      "sensitivity": 0.998,
+      "ppv": 1.0,
+      "f1": 0.999,
+      "n_tp": 1515,
+      "n_fp": 0,
+      "n_fn": 3
+    },
+    "124": {
+      "sensitivity": 1.0,
+      "ppv": 0.9994,
+      "f1": 0.9997,
+      "n_tp": 1619,
+      "n_fp": 1,
+      "n_fn": 0
+    },
     "200": {
       "sensitivity": 0.9981,
       "ppv": 0.9977,
@@ -168,42 +266,178 @@
       "n_tp": 2909,
       "n_fp": 2,
       "n_fn": 46
+    },
+    "209": {
+      "sensitivity": 0.9993,
+      "ppv": 0.9993,
+      "f1": 0.9993,
+      "n_tp": 3003,
+      "n_fp": 2,
+      "n_fn": 2
+    },
+    "210": {
+      "sensitivity": 0.9925,
+      "ppv": 0.9981,
+      "f1": 0.9953,
+      "n_tp": 2630,
+      "n_fp": 5,
+      "n_fn": 20
+    },
+    "212": {
+      "sensitivity": 0.9993,
+      "ppv": 1.0,
+      "f1": 0.9996,
+      "n_tp": 2746,
+      "n_fp": 0,
+      "n_fn": 2
+    },
+    "213": {
+      "sensitivity": 0.9997,
+      "ppv": 1.0,
+      "f1": 0.9998,
+      "n_tp": 3250,
+      "n_fp": 0,
+      "n_fn": 1
+    },
+    "214": {
+      "sensitivity": 0.9978,
+      "ppv": 0.9996,
+      "f1": 0.9987,
+      "n_tp": 2257,
+      "n_fp": 1,
+      "n_fn": 5
+    },
+    "215": {
+      "sensitivity": 0.9997,
+      "ppv": 0.9997,
+      "f1": 0.9997,
+      "n_tp": 3362,
+      "n_fp": 1,
+      "n_fn": 1
+    },
+    "219": {
+      "sensitivity": 0.9986,
+      "ppv": 0.9995,
+      "f1": 0.9991,
+      "n_tp": 2151,
+      "n_fp": 1,
+      "n_fn": 3
+    },
+    "220": {
+      "sensitivity": 0.9995,
+      "ppv": 0.9995,
+      "f1": 0.9995,
+      "n_tp": 2047,
+      "n_fp": 1,
+      "n_fn": 1
+    },
+    "221": {
+      "sensitivity": 0.993,
+      "ppv": 0.9996,
+      "f1": 0.9963,
+      "n_tp": 2410,
+      "n_fp": 1,
+      "n_fn": 17
+    },
+    "222": {
+      "sensitivity": 0.9996,
+      "ppv": 0.998,
+      "f1": 0.9988,
+      "n_tp": 2482,
+      "n_fp": 5,
+      "n_fn": 1
+    },
+    "223": {
+      "sensitivity": 0.9958,
+      "ppv": 0.9996,
+      "f1": 0.9977,
+      "n_tp": 2594,
+      "n_fp": 1,
+      "n_fn": 11
+    },
+    "228": {
+      "sensitivity": 0.9932,
+      "ppv": 0.9812,
+      "f1": 0.9872,
+      "n_tp": 2039,
+      "n_fp": 39,
+      "n_fn": 14
+    },
+    "230": {
+      "sensitivity": 0.9996,
+      "ppv": 0.9996,
+      "f1": 0.9996,
+      "n_tp": 2255,
+      "n_fp": 1,
+      "n_fn": 1
+    },
+    "231": {
+      "sensitivity": 0.9981,
+      "ppv": 0.9994,
+      "f1": 0.9987,
+      "n_tp": 1568,
+      "n_fp": 1,
+      "n_fn": 3
+    },
+    "232": {
+      "sensitivity": 0.9989,
+      "ppv": 0.9911,
+      "f1": 0.995,
+      "n_tp": 1778,
+      "n_fp": 16,
+      "n_fn": 2
+    },
+    "233": {
+      "sensitivity": 0.9981,
+      "ppv": 0.9997,
+      "f1": 0.9989,
+      "n_tp": 3073,
+      "n_fp": 1,
+      "n_fn": 6
+    },
+    "234": {
+      "sensitivity": 1.0,
+      "ppv": 1.0,
+      "f1": 1.0,
+      "n_tp": 2753,
+      "n_fp": 0,
+      "n_fn": 0
     }
   },
   "test_metrics": {
     "per_class": [
       {
         "label": "AF",
-        "precision": 1.0,
-        "recall": 0.007,
-        "f1": 0.0139,
-        "support": 143
+        "precision": 0.2667,
+        "recall": 0.0025,
+        "f1": 0.005,
+        "support": 1593
       },
       {
         "label": "N",
-        "precision": 0.9012,
-        "recall": 0.9956,
-        "f1": 0.9461,
-        "support": 5259
+        "precision": 0.8819,
+        "recall": 0.997,
+        "f1": 0.9359,
+        "support": 14964
       },
       {
         "label": "OTHER",
         "precision": 0.0,
         "recall": 0.0,
         "f1": 0.0,
-        "support": 377
+        "support": 273
       },
       {
         "label": "PVC",
-        "precision": 0.7467,
-        "recall": 0.7265,
-        "f1": 0.7365,
-        "support": 1181
+        "precision": 0.7836,
+        "recall": 0.7046,
+        "f1": 0.742,
+        "support": 1002
       }
     ],
-    "accuracy": 0.8757,
-    "macro_f1": 0.4241,
-    "weighted_f1": 0.8401
+    "accuracy": 0.8765,
+    "macro_f1": 0.4207,
+    "weighted_f1": 0.8276
   },
   "confusion_matrix": {
     "labels": [
@@ -214,52 +448,87 @@
     ],
     "matrix": [
       [
+        4,
+        1527,
+        0,
+        62
+      ],
+      [
+        9,
+        14919,
+        0,
+        36
+      ],
+      [
         1,
-        99,
+        175,
         0,
-        43
+        97
       ],
       [
+        1,
+        295,
         0,
-        5236,
-        0,
-        23
-      ],
-      [
-        0,
-        152,
-        0,
-        225
-      ],
-      [
-        0,
-        323,
-        0,
-        858
+        706
       ]
     ]
   },
   "patient_report": {
-    "n_patients": 3,
-    "patient_accuracy": 1.0,
+    "n_patients": 8,
+    "patient_accuracy": 0.875,
     "patients": [
       {
-        "patient_id": "201",
-        "n_beats": 1922,
+        "patient_id": "106",
+        "n_beats": 2005,
         "true_dominant": "N",
         "pred_dominant": "N",
         "correct": true
       },
       {
-        "patient_id": "202",
-        "n_beats": 2128,
+        "patient_id": "124",
+        "n_beats": 1619,
         "true_dominant": "N",
         "pred_dominant": "N",
         "correct": true
       },
       {
-        "patient_id": "208",
-        "n_beats": 2910,
+        "patient_id": "207",
+        "n_beats": 2130,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "210",
+        "n_beats": 2634,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "212",
+        "n_beats": 2745,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "219",
+        "n_beats": 2152,
+        "true_dominant": "N",
+        "pred_dominant": "N",
+        "correct": true
+      },
+      {
+        "patient_id": "232",
+        "n_beats": 1794,
+        "true_dominant": "AF",
+        "pred_dominant": "N",
+        "correct": false
+      },
+      {
+        "patient_id": "234",
+        "n_beats": 2753,
         "true_dominant": "N",
         "pred_dominant": "N",
         "correct": true
